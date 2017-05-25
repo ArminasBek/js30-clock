@@ -1,6 +1,8 @@
 h1 {
   color: black;
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  margin: 50px 0 0 0;
+  padding: 0; }
 
 body {
   background-color: lightgrey;
@@ -11,7 +13,7 @@ body {
   height: 15rem;
   border: 20px solid white;
   border-radius: 50%;
-  margin: 50px auto;
+  margin: 25px auto;
   position: relative;
   padding: 2rem; }
 
@@ -25,6 +27,13 @@ body {
   width: 50%;
   height: 6px;
   background: black;
+  border-radius: 5px;
   position: absolute;
   top: 50%;
   transform-origin: 100%; }
+
+.second-hand {
+  border-radius: 40%; }
+
+.hour-hand {
+  height: 7px; }
